@@ -1,0 +1,38 @@
+/*textfärg, storlek och stil.*/
+h1, h2 {
+font-family:arial;
+ color : #000033;
+ font-size:22px;
+ }
+  /*färg och storlek*/
+ p{ color: #000033; font-size:30px}
+  /*bakrundsbild*/
+ body {
+	font-family:arial;
+	background-image: url("https://images5.alphacoders.com/730/730436.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*centrerar text*/
+p,a {
+	text-align:center;
+}
+/*centrerar bild*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;	
+
+}
+/*storlek, färg och stil global meny*/
+.meny, li, a {
+	font-size: 25px;
+	color : #000033;
+	list-style:none;
+	text-decoration:none;
+}
+
+
+
+
